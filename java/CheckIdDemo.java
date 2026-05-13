@@ -6,8 +6,8 @@ import java.net.http.HttpResponse;
 
 public class CheckIdDemo {
     private static final String BASE_URL = "https://api.checkid.co.za";
-    private static final String SAMPLE_ID = "8903075555088";
-    private static final String BULK_BODY = "{\"idNumbers\":[\"8903075555088\",\"9001015800081\"]}";
+    private static final String SAMPLE_ID = "8903075555083";
+    private static final String BULK_BODY = "{\"idNumbers\":[\"8903075555083\",\"9001015800088\"]}";
 
     public static void main(String[] args) throws IOException, InterruptedException {
         String apiKey = requireApiKey();

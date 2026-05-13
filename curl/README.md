@@ -11,7 +11,7 @@ export CHECKID_API_KEY="YOUR_API_KEY"
 ## Single Validation
 
 ```bash
-curl -s "https://api.checkid.co.za/api/v1/validate/8903075555088" \
+curl -s "https://api.checkid.co.za/api/v1/validate/8903075555083" \
   -H "Authorization: Bearer ${CHECKID_API_KEY}"
 ```
 
@@ -21,7 +21,7 @@ curl -s "https://api.checkid.co.za/api/v1/validate/8903075555088" \
 curl -s "https://api.checkid.co.za/api/v1/validate/bulk" \
   -H "Authorization: Bearer ${CHECKID_API_KEY}" \
   -H "Content-Type: application/json" \
-  -d '{"idNumbers":["8903075555088","9001015800081"]}'
+  -d '{"idNumbers":["8903075555083","9001015800088"]}'
 ```
 
 ## Error Handling

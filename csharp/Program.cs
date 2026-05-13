@@ -3,8 +3,8 @@ using System.Net.Http.Headers;
 using System.Text;
 
 const string baseUrl = "https://api.checkid.co.za";
-const string sampleId = "8903075555088";
-var sampleIdsJson = "{\"idNumbers\":[\"8903075555088\",\"9001015800081\"]}";
+const string sampleId = "8903075555083";
+var sampleIdsJson = "{\"idNumbers\":[\"8903075555083\",\"9001015800088\"]}";
 
 var apiKey = Environment.GetEnvironmentVariable("CHECKID_API_KEY");
 if (string.IsNullOrWhiteSpace(apiKey))

@@ -5,8 +5,8 @@ import requests
 
 
 BASE_URL = "https://api.checkid.co.za"
-SAMPLE_ID = "8903075555088"
-SAMPLE_IDS = ["8903075555088", "9001015800081"]
+SAMPLE_ID = "8903075555083"
+SAMPLE_IDS = ["8903075555083", "9001015800088"]
 
 
 def require_api_key():

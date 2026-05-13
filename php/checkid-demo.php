@@ -1,8 +1,8 @@
 <?php
 
 $baseUrl = 'https://api.checkid.co.za';
-$sampleId = '8903075555088';
-$sampleIds = ['8903075555088', '9001015800081'];
+$sampleId = '8903075555083';
+$sampleIds = ['8903075555083', '9001015800088'];
 
 function requireApiKey(): string
 {

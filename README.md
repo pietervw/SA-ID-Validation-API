@@ -18,7 +18,7 @@ Set your API key and run a single validation request:
 
 ```bash
 export CHECKID_API_KEY="YOUR_API_KEY"
-curl -s "https://api.checkid.co.za/api/v1/validate/8903075555088" \
+curl -s "https://api.checkid.co.za/api/v1/validate/8903075555083" \
   -H "Authorization: Bearer ${CHECKID_API_KEY}"
 ```
 
@@ -64,14 +64,14 @@ POST /api/v1/validate/bulk
 Authorization: Bearer YOUR_API_KEY
 Content-Type: application/json
 
-{ "idNumbers": ["8903075555088", "9001015800081"] }
+{ "idNumbers": ["8903075555083", "9001015800088"] }
 ```
 
 Example successful response:
 
 ```json
 {
-  "idNumber": "8903075555088",
+  "idNumber": "8903075555083",
   "isValid": true,
   "dob": "1989-03-07T00:00:00",
   "age": 35,

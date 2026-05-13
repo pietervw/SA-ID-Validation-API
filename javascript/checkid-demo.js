@@ -1,6 +1,6 @@
 const BASE_URL = "https://api.checkid.co.za";
-const SAMPLE_ID = "8903075555088";
-const SAMPLE_IDS = ["8903075555088", "9001015800081"];
+const SAMPLE_ID = "8903075555083";
+const SAMPLE_IDS = ["8903075555083", "9001015800088"];
 
 function requireApiKey() {
   const apiKey = process.env.CHECKID_API_KEY;
