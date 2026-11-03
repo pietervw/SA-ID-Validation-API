@@ -17,6 +17,7 @@ CheckID is built for POPIA-conscious teams: ID numbers sent to the API are valid
 
 ## Contents
 
+- [Links](#links)
 - [Quick start](#quick-start)
 - [Language examples](#language-examples)
 - [API endpoints](#api-endpoints)
@@ -150,7 +151,7 @@ HTML:
 <a href="https://checkid.co.za"><img src="https://img.shields.io/badge/SA_ID_validation-CheckID.co.za-0b7a3e" alt="SA ID validation by CheckID.co.za"></a>
 ```
 
-Plain text link:
+Text link (HTML):
 
 ```html
 <a href="https://checkid.co.za">CheckID.co.za: South African ID number validation</a>
