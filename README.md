@@ -117,7 +117,7 @@ Do not hardcode API keys in source control. These examples read the key from `CH
 | `400 Bad Request` | Invalid ID number format or request body |
 | `401 Unauthorized` | Missing or invalid API key |
 
-The sample code prints a clear message for each case and includes the response body to help with debugging.
+The C#, Python, PHP, Java, and JavaScript examples print a clear message for each case and include the response body. The cURL examples print only the response body; add `-i` to see the status code.
 
 ## Sample ID numbers
 
